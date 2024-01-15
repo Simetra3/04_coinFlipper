@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="turbo.css">
+    <title>Coin Flipper</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-navbar">
+            <h3>coin flipper</h3>
+            <ul class="nav-list">
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="turbo.html">Turbo luck</a></li>
+                <li><a href="about-site.html">About site</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="container-title-info">
+                <h1 class="container-title">Turbo Luck!</h1>
+                <p class="info">Choose <span class="chance">%</span> chance to coin flip ratio</p>
+            </div>
+        </div>
+        <div class="some-things">
+                <label for="probabilityHeadsSlider">Choose probability of:</label>
+                <input type="range" id="probabilityHeadsSlider" min="0" max="100" step="1" value="50"/>
+                <span id="selectedHeadsProbability">50%</span>
+        </div>
+        <p class="tails-info">More <span class="important-span">tails</span></p>
+        <p class="heads-info">More <span class="important-span">heads</span></p>
+        <button id="startTurboHeads">Start Turbo Luck!</button>
+    </main>
+    <section>
+        <div class="img-container">
+            <img src="" alt="" id="coin-image" width="150px" height="150px">
+        </div>
+        <div class="container1">
+            <div class="coin-box">
+                <h1 class="coin-image-title">You dropped: 
+                    <span class="dropped-item"></span>
+                </h1>
+            </div>
+        </div>
+    </section>
+    <script src="turbo.js"></script>
+</body>
+</html>

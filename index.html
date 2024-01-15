@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Coin Flipper</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-navbar">
+            <h3>coin flipper</h3>
+            <ul class="nav-list">
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="turbo.html">Turbo luck</a></li>
+                <li><a href="about-site.html">About site</a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside class="aside-site">
+        <div class="aside-container">
+            <h2 class="h2-aside-title">Statistics</h2>
+        </div>
+        <div class="countdowns">
+            <p>Heads: <span class="heads-countdown"></span></p>
+            <p>Tails: <span class="tails-countdown"></span></p>
+        </div>
+        <button id="reset-countdowns" onclick="resetStats()">Reset</button>
+    </aside>
+    <main>
+        <div class="img-container">
+            <img src="" alt="" id="coin-image" width="150px" height="150px">
+        </div>
+        <div class="container">
+            <div class="coin-box">
+                <h1 class="coin-image-title">You dropped: 
+                    <span class="dropped-item"></span>
+                </h1>
+            </div>
+            <div class="coin-flipper">
+                <button id="wish-u-luck">Flip a coin!</button>
+            </div>
+        </div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>

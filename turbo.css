@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: lightblue;
+    position: relative;
+}
+
+header {
+    display: grid;
+    align-items: center;
+    border: 2px solid grey;
+    background: white;
+    height: 64px;
+    padding: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+header h3 {
+    text-transform: capitalize;
+}
+
+.nav-navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 90vw;
+    padding: 10px;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+}
+
+li a {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: purple;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+a {
+    margin: 10px;
+}
+
+main {
+    display: grid;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+
+.container-title-info {
+    display: block;
+    background: #0099cc;
+    border: 5px solid white;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.container-title {
+    text-align: center;
+}
+
+.info {
+    letter-spacing: 1px;
+}
+
+.chance {
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+}
+
+.some-things {
+    border: 2px solid green;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    margin-bottom: 30px;
+}
+
+.tails-info {
+    position: absolute;
+    top: 232px;
+    left: 730px;
+}
+
+.heads-info {
+    position: absolute;
+    top: 232px;
+    right: 730px;
+}
+
+.important-span {
+    font-weight: bold;
+    color: red;
+}
+
+#startTurboHeads {
+    background: #b3c6ff;
+    color: white;
+    font-size: 20px;
+    border: 3px solid #1a53ff;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: auto;
+    font-weight: bold;
+}
+
+#startTurboHeads:hover {
+    color: black;
+}
+
+section {
+    height: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+}
+
+.img-container {
+    display: grid;
+    margin-bottom: 70px;
+    border-radius: 2%;
+}
+
+.coin-box {
+    width: 600px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #80b3ff;
+    border-radius: 15px;
+    text-align: center;
+    background: #99b3ff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.coin-image-title {
+    letter-spacing: 2px;
+}
+
+.img-container {
+    display: none;
+}
